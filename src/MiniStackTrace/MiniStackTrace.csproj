@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Andrew Poole</Authors>
+    <Description>Small library which generates a short string stack trace which might be useful in logs etc
+"TestClass1.InterestingMethodA()|[TestClass2.cs:9]TestClass2.InterestingMethodB()"</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>1.0.0) Initial version</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/andrewjpoole/mini-stacktrace</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.6.8" />
+  </ItemGroup>
+
+</Project>

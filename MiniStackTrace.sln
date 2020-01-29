@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniStackTrace", "src\MiniStackTrace\MiniStackTrace.csproj", "{27CC0F95-CCED-4143-87F6-B4013D8FB49D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniStatckTrace.TestApp", "src\MiniStatckTrace.TestApp\MiniStatckTrace.TestApp.csproj", "{5E2D0E7E-19E6-4095-8892-8A36CDDFAD61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CC0F95-CCED-4143-87F6-B4013D8FB49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CC0F95-CCED-4143-87F6-B4013D8FB49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CC0F95-CCED-4143-87F6-B4013D8FB49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CC0F95-CCED-4143-87F6-B4013D8FB49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2D0E7E-19E6-4095-8892-8A36CDDFAD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2D0E7E-19E6-4095-8892-8A36CDDFAD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2D0E7E-19E6-4095-8892-8A36CDDFAD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2D0E7E-19E6-4095-8892-8A36CDDFAD61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB72AB34-BA6A-47D1-8DCA-3044B818C49D}
+	EndGlobalSection
+EndGlobal
