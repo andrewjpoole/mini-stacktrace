@@ -34,8 +34,9 @@ steps:
 #    configuration: '$(buildConfiguration)'
 
 - task: NuGetCommand@2
+  continueOnError: true
   inputs:
     command: 'push'
     packagesToPush: '$(Agent.BuildDirectory)/**/*.nupkg;!$(Agent.BuildDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'public nuget'    
+    publishFeedCredentials: 'public nuget'
