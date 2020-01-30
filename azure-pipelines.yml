@@ -38,4 +38,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Agent.BuildDirectory)/**/*.nupkg;!$(Agent.BuildDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'public nuget'
+    publishFeedCredentials: 'public nuget'    
